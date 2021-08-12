@@ -1,0 +1,39 @@
+
+import java.util.*;
+            
+
+public class NewClass {
+
+public static void main (String[]args){
+
+    boolean exit = true;
+    while(exit){
+Scanner userInput =  new Scanner(System.in);
+
+
+    System.out.println("Please Guess a number!!!");
+  int x=userInput.nextInt();
+    Random number = new Random();
+    int randomNumber =2;
+    int random= number.nextInt(randomNumber);
+        System.out.println(random);
+
+    if ( x == random ){
+    System.out.println("Bravo!! You Guessed the correct number!!!");
+    }else if ( x == 1337) {
+        
+        System.out.println("Bye Bye...I hope you enjoyed the best game ever!!!!");
+  System.exit(0);  
+    } else{
+    System.out.println("Sorry, You gussed the wrong number, try again!");
+    
+    
+    }
+    
+      
+                     }    
+    }
+
+}
+
+    

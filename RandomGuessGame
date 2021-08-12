@@ -1,0 +1,28 @@
+
+import java.util.*;
+            
+
+public class NewClass {
+
+public static void main (String[]args){
+    
+    
+Scanner userInput =  new Scanner(System.in);
+    System.out.println("Please Enter your personal number:");
+  int x=userInput.nextInt();
+    Random number = new Random();
+    int randomNumber =2;
+    int random= number.nextInt(randomNumber);
+        System.out.println(random);
+
+    if ( x == random ){
+    System.out.println("Bravo!! You Guessed the correct number!!!");
+    }else {
+    System.out.println("Sorry, You gussed the wrong number, try again!");
+    }
+    
+    }
+
+}
+
+    
